@@ -4,10 +4,8 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    console.log("Se recibió una petición en /");
-    res.send("Servidor Mente Amiga funcionando 🚀");
-});
+// Servir archivos estáticos
+app.use(express.static("public"));
 
 const PORT = 3000;
 
