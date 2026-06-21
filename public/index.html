@@ -2,24 +2,59 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mente Amiga</title>
 
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
 
-    <h1>Mente Amiga</h1>
+    <header>
 
-    <p>Bienvenido a la plataforma.</p>
+        <h2>Mente Amiga</h2>
 
-    <button id="btnSaludo">
-        Saludar
-    </button>
+       <nav>
+
+            <a href="/">Inicio</a>
+
+            <a href="pages/chat.html">Chat IA</a>
+
+            <a href="pages/historial.html">Historial</a>
+
+            <a href="pages/perfil.html">Perfil</a>
+
+            <button onclick="window.location='pages/login.html'">
+                 Iniciar sesión
+            </button>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <h1>Bienvenido a Mente Amiga</h1>
+
+            <p>
+                Tu espacio seguro para recibir apoyo emocional mediante
+                Inteligencia Artificial.
+            </p>
+
+            <button class="principal">
+                Comenzar
+            </button>
+
+            <button class="secundario">
+                Registrarse
+            </button>
+
+        </section>
+
+    </main>
 
     <script src="js/app.js"></script>
 

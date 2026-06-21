@@ -1,7 +1,17 @@
-const boton = document.getElementById("btnSaludo");
+document.querySelector(".principal").addEventListener("click", () => {
 
-boton.addEventListener("click", () => {
+    alert("Aquí iniciaremos el chat con la IA.");
 
-    alert("Bienvenido a Mente Amiga");
+});
+
+document.querySelector(".secundario").addEventListener("click", () => {
+
+    alert("Aquí irá el registro de usuarios.");
+
+});
+
+document.getElementById("loginBtn").addEventListener("click", () => {
+
+    alert("Aquí irá el inicio de sesión.");
 
 });
